@@ -43,7 +43,7 @@ const Gallery: NextPage<GalleryProps> = ({
         <PageHeader question="My Life In JPG" />
         <div className="mt-8">
           <p>
-            {description} Encapsulating brief moments in time :-D
+          Encapsulating brief moments in time: {description}
           </p>
         </div>
         <div className="mt-8">
@@ -85,5 +85,4 @@ export async function getStaticProps() {
     },
   };
 }
-
 export default Gallery;

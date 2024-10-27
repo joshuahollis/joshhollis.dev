@@ -5,8 +5,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://danewilliams.com
+Host: https://joshhollis.dev
 
 # Sitemaps
-Sitemap: https://danewilliams.com/sitemap.xml
-Sitemap: https://danewilliams.com/sitemap-0.xml
+Sitemap: https://joshhollis.dev/sitemap.xml
+Sitemap: https://joshhollis.dev/sitemap-0.xml
