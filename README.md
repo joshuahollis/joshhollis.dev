@@ -1,6 +1,6 @@
-# danewilliams.com
+# joshhollis.dev
 
-> My personal website: [danewilliams.com](https://danewilliams.com)
+> My personal website: [joshhollis.dev](https://joshhollis.dev)
 
 Built with Next, Radix, and Tailwind. Designed in Figma.  
 :-D
