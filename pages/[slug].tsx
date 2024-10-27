@@ -17,9 +17,9 @@ interface ArticleProps {
 }
 
 const Article: NextPage<ArticleProps> = ({ article, content }) => {
-  const title = `${article.title} | Dane Williams`;
+  const title = `${article.title} | Joshua Hollis`;
   const description = article.description || '';
-  const url = `https://danewilliams.com/${article.slug}`;
+  const url = `https://joshhollis.dev/${article.slug}`;
   const date = new Date(article.date).toISOString();
 
   return (
@@ -33,14 +33,14 @@ const Article: NextPage<ArticleProps> = ({ article, content }) => {
           url,
           images: [
             {
-              url: 'https://danewilliams.com/static/images/social/article.jpeg',
+              url: 'https://joshhollis.dev/static/images/social/article.jpeg',
               type: 'image/jpeg',
             },
           ],
         }}
       />
       <ArticleJsonLd
-        authorName="Dane Williams"
+        authorName="Joshua Hollis"
         type="Blog"
         url={url}
         title={title}
