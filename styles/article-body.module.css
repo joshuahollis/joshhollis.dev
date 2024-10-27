@@ -1,0 +1,83 @@
+.article-body p,
+.article-body ul,
+.article-body ol {
+  @apply my-6;
+}
+
+.article-body li {
+  @apply my-2;
+}
+
+.article-body blockquote {
+  @apply my-8 italic border-l-4 pl-6 border-lightmode-border-interactive;
+}
+:global(.dark) .article-body blockquote {
+  @apply border-darkmode-border-interactive;
+}
+
+.article-body {
+  @apply break-words leading-8;
+}
+
+.article-body code:not(code[class*='language-']) {
+  @apply bg-lightmode-component rounded px-1 py-0.5;
+}
+:global(.dark) .article-body code:not(code[class*='language-']) {
+  @apply bg-darkmode-component;
+}
+
+.article-body a {
+  @apply underline underline-offset-2 decoration-2 text-lightmode-text-high-contrast;
+}
+:global(.dark) .article-body a {
+  @apply text-darkmode-text-high-contrast;
+}
+
+.article-body img {
+  @apply my-6 rounded-lg;
+}
+
+.article-body ul {
+  @apply list-disc ml-4;
+}
+
+.article-body ol {
+  @apply list-decimal ml-4;
+}
+
+.article-body h2 {
+  @apply text-2xl mt-12 text-lightmode-text-high-contrast;
+}
+:global(.dark) .article-body h2 {
+  @apply text-darkmode-text-high-contrast;
+}
+
+.article-body h3 {
+  @apply text-xl mt-10 text-lightmode-text-high-contrast;
+}
+:global(.dark) .article-body h3 {
+  @apply text-darkmode-text-high-contrast;
+}
+
+.article-body h4 {
+  @apply text-lg mt-2 mb-1 text-lightmode-text-high-contrast;
+}
+:global(.dark) .article-body h4 {
+  @apply text-darkmode-text-high-contrast;
+}
+
+.article-body h5 h6 {
+  @apply text-base mt-2 mb-1 text-lightmode-text-high-contrast;
+}
+:global(.dark) .article-body h5 h6 {
+  @apply text-darkmode-text-high-contrast;
+}
+
+.article-body b,
+.article-body strong {
+  @apply text-lightmode-text-high-contrast font-normal;
+}
+:global(.dark) .article-body b,
+:global(.dark) .article-body strong {
+  @apply text-darkmode-text-high-contrast;
+}
