@@ -1,16 +1,23 @@
 ---
-title: "I'm joining a software startup!"
-description: 'A few months ago, I saw on Linkedin that a fellow vampire, Zeno Rocha had started a new job at a startup called WorkOS. He said the team was looking to bring on more software engineers, so I scheduled a call and learned more about the company from him.'
-date: '2021-10-30'
+title: "Founding Movez AI: A New Chapter in Tech Innovation"
+description: 'After years of building and refining Movez, I’m thrilled to introduce Movez AI—a new venture that leverages artificial intelligence to redefine user experiences and bring added intelligence to our platform.'
+date: '2023-10-25'
 ---
 
-A few months ago, I saw on Linkedin that a fellow [vampire](https://github.com/dracula/dracula-theme), [Zeno Rocha](https://zenorocha.com/) had started a new job at a startup called [WorkOS](https://workos.com/).
-He said the team was looking to bring on more software engineers, so I scheduled a call and learned more about the company from him.
+I’m excited to announce the launch of [Movez AI](https://movez.ai/), a new chapter in our journey with Movez. After years of growing Movez into a platform that empowers users and creators, we’re taking things a step further by integrating cutting-edge artificial intelligence. Movez AI will allow us to deliver personalized, adaptive experiences and deepen user engagement through smarter, data-driven insights.
 
-I quickly became very impressed by what Zeno had shared with me about the company as well as from the research I had done and began the interview process.
-I've always loved building tools for other developers, therefore I thought that going to a company that makes API's seemed like an awesome opportunity.
-After meeting many more members of the team and going through multiple interview rounds I finally had an offer and could not have been more excited to join.
+### Why Movez AI?
 
-Working in an organization of this size that is getting ready to grow incredibly fast is an exceptionally unique opportunity and I'm sure I will have virtually unlimited opportunities to learn and grow while making an impact on the company.
-I'll be joining as the 9th engineering hire and can't wait to get started in January after I graduate from Notre Dame.
-So stoked to share more about this awesome experience!
+The idea for Movez AI came from observing how technology continues to shape and streamline our lives. Our users and partners were looking for ways to gain more insight, efficiency, and personalized interactions—needs that are ideally suited to AI-powered solutions. With Movez AI, our goal is to develop tools that can anticipate and adapt to user needs, creating a platform that’s as dynamic as its community.
+
+### Building the Team and Technology
+
+Launching an AI-driven platform means leveraging new tech stacks and aligning with the right partners. With an incredibly talented team and an ambitious roadmap, we’re working with leading machine learning models to enable features that help users connect and create, transforming raw data into actionable insights. 
+
+### What’s Next?
+
+The journey is just beginning, and I couldn’t be more excited about what’s in store. Movez AI is designed as a collaborative platform for creators, users, and partners alike. I’m looking forward to sharing more as we grow, innovate, and redefine what’s possible in social engagement and intelligent technology. Stay tuned!
+
+---
+
+Thank you for being a part of this journey. Let’s see what we can build together with Movez AI!
