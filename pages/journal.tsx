@@ -38,15 +38,9 @@ const Journal: NextPage<JournalProps> = ({ articles, title, description }) => {
         title={title}
         description={description}
         openGraph={{
-          title: `${title} | Dane Williams`,
+          title: `${title} | Joshua Hollis`,
           description,
-          url: 'https://danewilliams.com/journal',
-          images: [
-            {
-              url: 'https://danewilliams.com/static/images/social/journal.jpeg',
-              type: 'image/jpeg',
-            },
-          ],
+          url: 'https://joshhollis.dev/',
         }}
       />
       <Page>
