@@ -1,23 +1,21 @@
 ---
-title: 'Introducing danewilliams.com'
-description: 'Welcome to my new personal site, danewilliams.com! I decided to build this for a few reasons. I have been doing more frontend at work recently and felt it would be good practice. I wanted to try designing something cool.'
+title: 'Welcome to joshhollis.dev'
+description: 'Excited to launch my personal site, joshhollis.dev, where I’ll showcase projects, share insights, and experiment with front-end design and development.'
 date: '2023-01-23'
 ---
 
-Welcome to my new personal site, [danewilliams.com](https://danewilliams.com)!
+Welcome to my personal site, [joshhollis.dev](https://joshhollis.dev)! 
 
-### I decided to build this for a few reasons
+### Why I Built This Site
 
-- I've been doing more frontend at work recently and felt it would be good practice
-- I wanted to try designing something cool
-- I want to use my site as a playground for experimentation, which I could not do on my [old site](https://github.com/danerwilliams/danewilliams.me) built with Hugo
-- My old site was built sophomore year of college and looks outdated
+- With more frontend projects at work, I wanted a place to sharpen and showcase my skills.
+- I designed this as a creative playground for experimenting with new ideas and technologies.
+- My previous site (created back in college) was great for the time but didn’t support the customizations I wanted for my current projects and aesthetic.
+  
+### Exploring the Tech Stack
 
-### Look at the cool markdown!
-
-Checkout the `inline` and block code styling built using [Dracula for Prism](https://draculatheme.com/prism)
+I’ve customized code styling with [Dracula for Prism](https://draculatheme.com/prism), enhancing readability and giving the code blocks a polished look.
 
 ```ts
-let message: string = 'Hello, World!';
-console.log(message);
-```
+const greeting: string = 'Hello, World!';
+console.log(greeting);

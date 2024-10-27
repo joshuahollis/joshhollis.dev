@@ -1,7 +1,7 @@
 ---
-title: 'Initial Post'
-description: 'Welcome to my blog! I plan to use this site to share my projects and code with the world, and may occasionally speak to other interests of mine. I am currently a CS student at Notre Dame, and you can learn more about me by checking out my about page.'
-date: '2020-03-22'
+title: 'Hello World'
+description: 'Welcome to my blog! I’ll be sharing insights from my projects, coding adventures, and other interests. I’m a developer and entrepreneur, and you can learn more about my work on the about page.'
+date: '2023-01-23'
 ---
 
-Welcome to my blog! I plan to use this site to share my projects and code with the world, and may occasionally speak to other interests of mine. I am currently a CS student at Notre Dame, and you can learn more about me by checking out my about page.
+Welcome to my blog! Here, I’ll be sharing insights from my projects, code samples, and experiments in tech, as well as the occasional post on other interests. As a developer and entrepreneur, I’m always exploring ways to build, innovate, and improve. For more about my background, check out my [about page](https://joshhollis.dev/about).
