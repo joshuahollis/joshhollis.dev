@@ -1,1 +1,1 @@
-// export * from './timeline-projects';
+export {}; // This makes the file a module
