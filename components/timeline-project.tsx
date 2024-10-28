@@ -9,7 +9,7 @@ export interface TimelineProjectProps {
   name: string;
   url?: string;
   description: string;
-  organization: "personal" | "workos" | "qualtrics" | "nd" | "Movez AI (movez.ai)" | "Moves";
+  organization: "personal" | "workos" | "qualtrics" | "nd" | "Movez AI" | "Moves" | "Movez";
   secondaryDescription?: string;
   isRight: boolean;
   isFirst: boolean;
