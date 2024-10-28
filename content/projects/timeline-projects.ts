@@ -37,7 +37,7 @@ export const TimelineProjects: (Omit<
     date: new Date('2023-04-01').toISOString(),
     organization: 'personal',
     description: 'This personal website showcases my portfolio, projects, and experiences, built using modern web technologies including Next.js, Radix UI, and Tailwind CSS.',
-    secondaryDescription: 'Designed in Figma, focusing on user experience and aesthetic appeal.',
+    secondaryDescription: 'Designed in Figma, focusing on user experience (UX) and aesthetic appeal.',
   },
 //   {
 //     name: 'Admin Portal Navigation',
