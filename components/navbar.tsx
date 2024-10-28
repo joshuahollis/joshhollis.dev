@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 import { ThemeToggle } from './theme-toggle';
 import { DaneIcon } from './icons/dane-icon';
 
-const pages = ['about', 'journal', 'projects', 'gallery'];
+const pages = ['about', 'journal', 'gallery']; //,'projects'x
 
 interface NavbarProps {}
 
