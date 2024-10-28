@@ -37,7 +37,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Joshua Hollis',
-      description: 'A Software Developer Committed to Creating Polished Software',
+      description: 'A Project Manager & Software Developer Committed to Creating Polished Software',
     },
   };
 }
