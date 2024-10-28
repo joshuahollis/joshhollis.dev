@@ -29,12 +29,12 @@ const Projects: NextPage<ProjectsProps> = ({
         title={title}
         description={description}
         openGraph={{
-          title: `${title} | Dane Williams`,
+          title: `${title} | Joshua Hollis`,
           description,
-          url: 'https://danewilliams.com/projects',
+          url: 'https://joshhollis.dev/projects',
           images: [
             {
-              url: 'https://danewilliams.com/static/images/social/projects.jpeg',
+              url: 'https://joshhollis.dev/static/images/social/projects.jpeg',
               type: 'image/jpeg',
             },
           ],
@@ -47,24 +47,24 @@ const Projects: NextPage<ProjectsProps> = ({
           <div className="flex flex-row max-[576px]:flex-col gap-6 mt-8">
             <div className="flex w-full">
               <HighlightedProject
-                name="New Grad Positions"
-                url="https://github.com/SimplifyJobs/New-Grad-Positions"
-                description="A collection of computer science jobs for new college graduates"
+                name="Movez"
+                url="https://github.com/movez"
+                description="A Vertically Integrated Social Event PaaS"
                 stats={[
-                  { icon: <StarIcon />, label: '5k+ Stars' },
-                  { icon: <EyeOpenIcon />, label: '10k+ Visits/Day' },
+                  { icon: <StarIcon />, label: '100+ Stars' },
+                  { icon: <EyeOpenIcon />, label: '10 Contributors' },
                 ]}
-              />
-            </div>
-            <div className="flex w-full">
-              <HighlightedProject
-                name="Dracula Tmux"
-                url="https://github.com/dracula/tmux"
-                description="Official Dracula Theme extension for Tmux"
-                stats={[
-                  { icon: <StarIcon />, label: '500+ Stars' },
-                  { icon: <PersonIcon />, label: '20+ Contributors' },
-                ]}
+            //   />
+            // </div>
+            // <div className="flex w-full">
+            //   <HighlightedProject
+            //     name="Dracula Tmux"
+            //     url="https://github.com/dracula/tmux"
+            //     description="Official Dracula Theme extension for Tmux"
+            //     stats={[
+            //       { icon: <StarIcon />, label: '500+ Stars' },
+            //       { icon: <PersonIcon />, label: '20+ Contributors' },
+            //     ]}
               />
             </div>
           </div>
