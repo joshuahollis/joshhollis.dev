@@ -40,11 +40,11 @@ export const GalleryImages: Omit<GalleryImageProps, 'onClick'>[] = [
     height: 200,
     caption: 'Chestnut Hill, MA',
   },
-  {
-    src: '/static/gallery/emirates.jpeg',
-    height: 180,
-    caption: 'Qatar',
-  },
+  // {
+  //   src: '/static/gallery/emirates.jpeg',
+  //   height: 180,
+  //   caption: 'Qatar',
+  // },
   {
     src: '/static/gallery/familygrad.jpeg',
     height: 220,
@@ -70,11 +70,11 @@ export const GalleryImages: Omit<GalleryImageProps, 'onClick'>[] = [
     height: 250,
     caption: 'Boston, MA',
   },
-  {
-    src: '/static/gallery/hermes.jpeg',
-    height: 190,
-    caption: 'Qatar',
-  },
+  // {
+  //   src: '/static/gallery/hermes.jpeg',
+  //   height: 190,
+  //   caption: 'Qatar',
+  // },
   {
     src: '/static/gallery/highhonors.jpeg',
     height: 300,
@@ -210,11 +210,11 @@ export const GalleryImages: Omit<GalleryImageProps, 'onClick'>[] = [
     height: 380,
     caption: 'Brunswick, ME',
   },
-  {
-    src: '/static/gallery/fairmont-hairpin.jpeg',
-    height: 380,
-    caption: 'Monte Carlo, FR',
-  },  
+  // {
+  //   src: '/static/gallery/fairmont-hairpin.jpeg',
+  //   height: 380,
+  //   caption: 'Monte Carlo, FR',
+  // },  
   {
     src: '/static/gallery/themarsh2.jpeg',
     height: 380,
