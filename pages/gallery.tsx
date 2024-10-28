@@ -40,7 +40,7 @@ const Gallery: NextPage<GalleryProps> = ({
         }}
       />
       <Page>
-        <PageHeader question="My Life In JPG" />
+        <PageHeader question="My Life In Pictures" />
         <div className="mt-8">
           <p>
           Encapsulating brief moments in time: {description}

@@ -159,9 +159,9 @@ export const TimelineProjects: (Omit<
       'GroupMe chat bot written in Python and trained on 100s of thousands of messages from an iMessage group chat.',
   },
   {
-    name: 'danewilliams.me',
+    name: 'joshhollis.dev',
     organization: 'personal',
-    url: 'https://github.com/danerwilliams/danewilliams.me',
+    url: 'https://github.com/joshuahollis/joshhollis.dev',
     date: new Date('2020-04-01').toISOString(),
     description:
       'My original personal website built using Hugo along with customizations using vanilla Javascript and CSS.',
