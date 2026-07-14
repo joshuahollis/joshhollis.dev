@@ -1,0 +1,12 @@
+# https://www.youtube.com/watch?v=IBZp_duus_8
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://joshhollis.dev
+
+# Sitemaps
+Sitemap: https://joshhollis.dev/sitemap.xml
+Sitemap: https://joshhollis.dev/sitemap-0.xml
