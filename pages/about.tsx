@@ -46,19 +46,19 @@ const About: NextPage<AboutProps> = ({ resumeItems, title, description }) => {
             <p>
               Hey 👋
               <NewLine />
-              I'm Joshua Hollis, a software engineer based out of
+              I&apos;m Joshua Hollis, a software engineer based out of
               <span className="ml-2 text-lightmode-text-high-contrast dark:text-darkmode-text-high-contrast">
                 Boston
               </span>
               . ☘️
               <NewLine />
-              In the past I've lived in <PreviousCities />
-              <NewLine /> During football season, you'll find me cheering on the
+              In the past I&apos;ve lived in <PreviousCities />
+              <NewLine /> During football season, you&apos;ll find me cheering on the
               Atlanta Falcons 🏈 and UGA Bulldogs 🐶. While studying at Boston
               University, I lived in Student Village 2 (StuVi2) and played on the
               golf team. Go Terriers! 🐾
               <NewLine />
-              I'm an entrepreneur, trader, quant, developer, and product manager
+              I&apos;m an entrepreneur, trader, quant, developer, and product manager
               driven by the thrill of building impactful products. My focus is on
               creating meaningful solutions, working across the entire stack, and
               using any tools or technologies necessary to make something truly
