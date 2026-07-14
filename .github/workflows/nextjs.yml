@@ -1,7 +1,8 @@
-- name: Build and export Next.js
+name: Build and export Next.js
   run: |
     npm run build
     npx next export
+    
 on:
   push:
     branches: ["main"]
