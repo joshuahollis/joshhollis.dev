@@ -1,8 +1,5 @@
-name: Build and export Next.js
-  run: |
-    npm run build
-    npx next export
-    
+name: Deploy Next.js site to Pages
+
 on:
   push:
     branches: ["main"]
@@ -39,21 +36,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build with Next.js
-        run: npm run build
-
-      - name: Verify static export
+      - name: Build and export Next.js
         run: |
-          echo "Repository contents:"
-          ls -la
-
-          if [ ! -d "./out" ]; then
-            echo "ERROR: Next.js did not create the ./out folder."
-            exit 1
-          fi
-
-          echo "Exported site:"
-          ls -la ./out
+          npm run build
+          npx next export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -71,4 +57,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v
+        uses: actions/deploy-pages@v4
