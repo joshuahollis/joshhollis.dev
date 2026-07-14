@@ -1,15 +1,15 @@
-import type { NextPage } from 'next';
-import { Page } from '../components/page';
-import { PageHeader } from '../components/page-header';
-import { GalleryImage, GalleryImageProps } from '../components/gallery-image';
-import { useState } from 'react';
-import FsLightbox from 'fslightbox-react';
-import { GalleryImages } from '../content/gallery/images';
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
-import { NextSeo } from 'next-seo';
+import type { NextPage } from "next";
+import { Page } from "../components/page";
+import { PageHeader } from "../components/page-header";
+import { GalleryImage, GalleryImageProps } from "../components/gallery-image";
+import { useState } from "react";
+import FsLightbox from "fslightbox-react";
+import { GalleryImages } from "../content/gallery/images";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import { NextSeo } from "next-seo";
 
 interface GalleryProps {
-  galleryImages: Omit<GalleryImageProps, 'onClick'>[];
+  galleryImages: Omit<GalleryImageProps, "onClick">[];
   title: string;
   description: string;
 }
@@ -30,11 +30,11 @@ const Gallery: NextPage<GalleryProps> = ({
         openGraph={{
           title: `${title} | Joshua Hollis`,
           description,
-          url: 'https://joshhollis.dev/gallery',
+          url: "https://joshhollis.dev/gallery",
           images: [
             {
-              url: 'https://joshhollis.dev/static/images/social/gallery.jpeg',
-              type: 'image/jpeg',
+              url: "https://joshhollis.dev/static/images/social/gallery.jpeg",
+              type: "image/jpeg",
             },
           ],
         }}
@@ -42,14 +42,10 @@ const Gallery: NextPage<GalleryProps> = ({
       <Page>
         <PageHeader question="My Life In Pictures" />
         <div className="mt-8">
-          <p>
-          Encapsulating brief moments in time: {description}
-          </p>
+          <p>Encapsulating brief moments in time: {description}</p>
         </div>
         <div className="mt-8">
-          <ResponsiveMasonry
-            columnsCountBreakPoints={{ 0: 1, 480: 2, 1023: 3 }}
-          >
+          <ResponsiveMasonry columnsCountBreakPoints={{ 0: 1, 480: 2, 1023: 3 }}>
             <Masonry gutter={`16px`}>
               {galleryImages.map((galleryImageProps, idx) => (
                 <GalleryImage
@@ -79,9 +75,9 @@ export async function getStaticProps() {
   return {
     props: {
       galleryImages: GalleryImages,
-      title: 'Gallery',
+      title: "Gallery",
       description:
-        'Here are some of the people I’ve gotten to meet and some of the places I’ve been lately.',
+        "Here are some of the people I've gotten to meet and some of the places I've been lately.",
     },
   };
 }

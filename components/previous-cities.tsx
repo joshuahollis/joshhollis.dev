@@ -1,9 +1,9 @@
-import { FC, useCallback, useEffect, useState } from 'react';
+import { FC, useCallback, useEffect, useState } from "react";
 
 const locations = [
-  { emoji: '🍑', city: 'Atlanta, GA' },
-  {emoji: '🗽', city: 'New York City, NY'},
-  { emoji: '🏄‍♂️', city: 'Los Angeles, CA' },
+  { emoji: "🍑", city: "Atlanta, GA" },
+  { emoji: "🗽", city: "New York City, NY" },
+  { emoji: "🏄‍♂️", city: "Los Angeles, CA" },
 ];
 
 interface PreviousCitiesProps {}
@@ -38,21 +38,21 @@ export const PreviousCities: FC<Readonly<PreviousCitiesProps>> = () => {
             <span
               className={`${
                 index === currentCityIndex
-                  ? 'mx-1 text-lightmode-text-high-contrast dark:text-darkmode-text-high-contrast'
-                  : 'mx-1 absolute invisible'
+                  ? "mx-1 text-lightmode-text-high-contrast dark:text-darkmode-text-high-contrast"
+                  : "mx-1 absolute invisible"
               }`}
               key={location.city}
             >
               <span
                 className={`${
                   index === currentCityIndex
-                    ? 'mr-2 duration-200'
-                    : 'mr-2 absolute invisible opacity-0 -translate-y-3 duration-200'
+                    ? "mr-2 duration-200"
+                    : "mr-2 absolute invisible opacity-0 -translate-y-3 duration-200"
                 }`}
               >
                 {location.emoji}
               </span>
-              <span className={`${index === currentCityIndex ? '' : 'hidden'}`}>
+              <span className={`${index === currentCityIndex ? "" : "hidden"}`}>
                 {location.city}
               </span>
             </span>

@@ -1,6 +1,6 @@
-import type { NextPage } from 'next';
-import { NextSeo } from 'next-seo';
-import { Title } from '../components/title';
+import type { NextPage } from "next";
+import { NextSeo } from "next-seo";
+import { Title } from "../components/title";
 
 interface HomeProps {
   title: string;
@@ -16,11 +16,11 @@ const Home: NextPage<HomeProps> = ({ title, description }) => {
         openGraph={{
           title,
           description: seoDescription,
-          url: 'https://joshhollis.dev',
+          url: "https://joshhollis.dev",
           images: [
             {
-              url: 'https://joshhollis.dev/static/images/social/index.jpeg',
-              type: 'image/jpeg',
+              url: "https://joshhollis.dev/static/images/social/index.jpeg",
+              type: "image/jpeg",
             },
           ],
         }}
@@ -36,8 +36,9 @@ const Home: NextPage<HomeProps> = ({ title, description }) => {
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Joshua Hollis',
-      description: 'A Project Manager & Software Developer Committed to Creating Polished Software',
+      title: "Joshua Hollis",
+      description:
+        "A Project Manager & Software Developer Committed to Creating Polished Software",
     },
   };
 }
