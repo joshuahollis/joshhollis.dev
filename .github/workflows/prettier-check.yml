@@ -7,9 +7,14 @@ on:
 jobs:
   prettier:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
       - uses: actions/cache@v3
         name: Configure npm caching
         with:
@@ -17,6 +22,22 @@ jobs:
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-npm-
-      - name: Run prettier
-        run: |-
+
+      - name: Run Prettier check
+        id: prettier
+        continue-on-error: true
+        run: |
           npx prettier --check .
+
+      - name: Autoformat and push (if check failed)
+        if: steps.prettier.outcome == 'failure'
+        run: |
+          npx prettier --write .
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: format with Prettier (auto)" || echo "No changes to commit"
+          git push
+
+      - name: Run Prettier check again
+        run: npx prettier --check .
