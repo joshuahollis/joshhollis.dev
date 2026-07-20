@@ -1,7 +1,7 @@
 ---
-title: "Welcome to joshhollis.dev"
+title: 'Welcome to joshhollis.dev'
 description: "Excited to launch my personal site, joshhollis.dev, where I'll showcase projects, share insights, and experiment with front-end design and development."
-date: "2023-01-23"
+date: '2023-01-23'
 ---
 
 Welcome to my personal site, [joshhollis.dev](https://joshhollis.dev)!
@@ -17,6 +17,6 @@ Welcome to my personal site, [joshhollis.dev](https://joshhollis.dev)!
 I've customized code styling with [Dracula for Prism](https://draculatheme.com/prism), enhancing readability and giving the code blocks a polished look.
 
 ```ts
-const greeting: string = "Hello, World!";
+const greeting: string = 'Hello, World!';
 console.log(greeting);
 ```

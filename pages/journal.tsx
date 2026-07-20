@@ -1,12 +1,12 @@
-import type { NextPage } from "next";
-import { Article } from "../components/article";
-import { getAllArticles, Article as ArticleMetadata } from "../lib/journal";
-import { Page } from "../components/page";
-import { PageHeader } from "../components/page-header";
-import Fuse from "fuse.js";
-import { useState } from "react";
-import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
-import { NextSeo } from "next-seo";
+import type { NextPage } from 'next';
+import { Article } from '../components/article';
+import { getAllArticles, Article as ArticleMetadata } from '../lib/journal';
+import { Page } from '../components/page';
+import { PageHeader } from '../components/page-header';
+import Fuse from 'fuse.js';
+import { useState } from 'react';
+import { MagnifyingGlassIcon } from '@radix-ui/react-icons';
+import { NextSeo } from 'next-seo';
 
 interface JournalProps {
   articles: ArticleMetadata[];
@@ -24,7 +24,7 @@ const Journal: NextPage<JournalProps> = ({ articles, title, description }) => {
     }
 
     const fuse = new Fuse(articles, {
-      keys: ["title"],
+      keys: ['title'],
       threshold: 0.4,
     });
     const result = fuse.search(query);
@@ -40,11 +40,11 @@ const Journal: NextPage<JournalProps> = ({ articles, title, description }) => {
         openGraph={{
           title: `${title} | Joshua Hollis`,
           description,
-          url: "https://joshhollis.dev/journal",
+          url: 'https://joshhollis.dev/journal',
           images: [
             {
-              url: "https://joshhollis.dev/static/images/social/journal.jpeg",
-              type: "image/jpeg",
+              url: 'https://joshhollis.dev/static/images/social/journal.jpeg',
+              type: 'image/jpeg',
             },
           ],
         }}
@@ -88,9 +88,9 @@ export async function getStaticProps() {
   return {
     props: {
       articles,
-      title: "Journal",
+      title: 'Journal',
       description:
-        "Here is some of my writing. I try to occasionally write brief memos with updates on major things happening in my life and career, among other topics.",
+        'Here is some of my writing. I try to occasionally write brief memos with updates on major things happening in my life and career, among other topics.',
     },
   };
 }
