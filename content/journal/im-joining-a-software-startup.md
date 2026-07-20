@@ -1,7 +1,7 @@
 ---
-title: "Founding Movez AI"
-description: "Introducing Movez AI—an interactive experience discovery concierge powered by generative AI, enhancing the Movez.com platform."
-date: "2024-05-25"
+title: 'Founding Movez AI'
+description: 'Introducing Movez AI—an interactive experience discovery concierge powered by generative AI, enhancing the Movez.com platform.'
+date: '2024-05-25'
 ---
 
 I'm thrilled to announce the launch of [Movez AI](https://movez.ai/), an interactive experience discovery concierge that extends the Movez.com platform. Inspired by the need for more personalized[...]
